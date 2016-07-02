@@ -5,7 +5,7 @@ export default function (props) {
   return (
     <div>
       <section className="todoapp">
-        <TodoList todos={props.todos} />
+        <TodoList todos={props.todos} filter={props.filter} />
       </section>
     </div>
   );
